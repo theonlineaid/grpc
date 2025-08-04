@@ -1,0 +1,10 @@
+fastapi 
+uvicorn[standard]
+sqlalchemy[asyncio]
+psycopg2-binary 
+aiosqlite 
+asyncpg 
+grpcio 
+grpcio-tools
+asyncio
+types-protobuf

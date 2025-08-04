@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled protobuf
+*.pb2.py
+*.pb2_grpc.py
+
+generated/__pycache__/
+app/__pycache__/
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*.bak
+
+# Ignore requirements lock files
+poetry.lock
+Pipfile.lock
